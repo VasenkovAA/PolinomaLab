@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\POLINOMALAB\BUILD\CMAKEFILES\C4F5953D5BEF9E292A31F04AAF636006\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Desktop/PolinomaLab -BC:/Users/user/Desktop/PolinomaLab/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Desktop/PolinomaLab/build/ProgrammingLabsWork_2022_2023.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

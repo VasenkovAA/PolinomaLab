@@ -1,0 +1,9 @@
+C:/Users/user/Desktop/PolinomaLab/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Desktop/PolinomaLab/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/user/Desktop/PolinomaLab/build/main/CMakeFiles/Application.dir
+C:/Users/user/Desktop/PolinomaLab/build/list/CMakeFiles/list.dir
+C:/Users/user/Desktop/PolinomaLab/build/TFraction/CMakeFiles/TFroction.dir
+C:/Users/user/Desktop/PolinomaLab/build/TMonoms/CMakeFiles/TMonoms.dir
+C:/Users/user/Desktop/PolinomaLab/build/TPolinoms/CMakeFiles/TPolinoms.dir
+C:/Users/user/Desktop/PolinomaLab/build/gtest/CMakeFiles/gtest.dir
+C:/Users/user/Desktop/PolinomaLab/build/tests/CMakeFiles/AllTests.dir
