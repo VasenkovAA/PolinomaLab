@@ -42,6 +42,7 @@ public:
         numerator /= common;
         denominator /= common;
     }
+    Fraction(const Fraction& other) : numerator(other.numerator), denominator(other.denominator), sign(other.sign) {}
 
     Fraction operator-() const {
         return Fraction(-numerator, denominator);
@@ -131,15 +132,15 @@ public:
         }
     }
 
-    bool operator>(const Fraction& f) {
+    bool operator>(const Fraction& f)const  {
         if (sign == f.sign) {
             return (numerator * f.denominator) > (f.numerator * denominator);
         }
         else if (sign == '+') {
-            return true; // Positive fraction is always greater than a negative one
+            return true; 
         }
         else {
-            return false; // Negative fraction is always less than a positive one
+            return false; 
         }
     }
 
@@ -205,6 +206,10 @@ public:
     }
 
     char getSign() { return sign; }
+
+    float run() const {
+        return static_cast<float>(numerator) / static_cast<float>(denominator);
+    }
 };
 
 

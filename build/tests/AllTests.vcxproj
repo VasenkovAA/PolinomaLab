@@ -314,6 +314,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\user\Desktop\PolinomaLab\tests\test_Fraction.cpp" />
+    <ClCompile Include="C:\Users\user\Desktop\PolinomaLab\tests\test_TMonoms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\user\Desktop\PolinomaLab\build\ZERO_CHECK.vcxproj">

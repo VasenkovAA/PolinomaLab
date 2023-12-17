@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\user\Desktop\PolinomaLab\tests\test_Fraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\PolinomaLab\tests\test_TMonoms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\user\Desktop\PolinomaLab\tests\CMakeLists.txt" />
